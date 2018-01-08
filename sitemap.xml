@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/01/07/CentOS-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2018-01-07T10:27:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/01/07/%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2018-01-07T09:39:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/01/07/virtualenv%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    
+    <lastmod>2018-01-07T09:38:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/01/07/nodejs%E7%89%88%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%8D%87%E8%87%B3%E6%9C%80%E6%96%B0%E7%89%88/</loc>
+    
+    <lastmod>2018-01-07T09:38:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/01/07/hello-world/</loc>
     
     <lastmod>2018-01-07T04:42:45.000Z</lastmod>

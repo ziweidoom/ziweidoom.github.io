@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-07T04:42:45.000Z</updated>
+  <updated>2018-01-07T10:27:06.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,98 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS 开机自启动设置</title>
+    <link href="http://yoursite.com/2018/01/07/CentOS-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/01/07/CentOS-开机自启动设置/</id>
+    <published>2018-01-07T10:17:55.000Z</published>
+    <updated>2018-01-07T10:27:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在CentOS系统, 主要有两种方法设置自己安装的程序开机启动</p><ol><li>把启动程序的命令添加到/etc/rc.d/rc.local文件中</li><li>把写好的启动脚本添加到目录/etc/rc.d/init.d/，然后使用命令chkconfig设置开机启动</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在CentOS系统, 主要有两种方法设置自己安装的程序开机启动&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;把启动程序的命令添加到/etc/rc.d/rc.local文件中&lt;/li&gt;
+&lt;li&gt;把写好的启动脚本添加到目录/etc/rc.d/init.d/，然后使用命令chkconfig设置开机
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs版本快速升至最新版</title>
+    <link href="http://yoursite.com/2018/01/07/nodejs%E7%89%88%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%8D%87%E8%87%B3%E6%9C%80%E6%96%B0%E7%89%88/"/>
+    <id>http://yoursite.com/2018/01/07/nodejs版本快速升至最新版/</id>
+    <published>2018-01-07T09:31:38.000Z</published>
+    <updated>2018-01-07T09:38:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="首先安装n模块"><a href="#首先安装n模块" class="headerlink" title="首先安装n模块"></a>首先安装n模块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g n</span><br></pre></td></tr></table></figure><h3 id="升级node-js到最新稳定版"><a href="#升级node-js到最新稳定版" class="headerlink" title="升级node.js到最新稳定版"></a>升级node.js到最新稳定版</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ n stable</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;首先安装n模块&quot;&gt;&lt;a href=&quot;#首先安装n模块&quot; class=&quot;headerlink&quot; title=&quot;首先安装n模块&quot;&gt;&lt;/a&gt;首先安装n模块&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>virtualenv的使用</title>
+    <link href="http://yoursite.com/2018/01/07/virtualenv%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/01/07/virtualenv的使用/</id>
+    <published>2018-01-07T09:26:52.000Z</published>
+    <updated>2018-01-07T09:38:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用virtualenv创建虚拟python环境"><a href="#使用virtualenv创建虚拟python环境" class="headerlink" title="使用virtualenv创建虚拟python环境"></a>使用virtualenv创建虚拟python环境</h2><p>这个工具叫virtualenv，是使用python开发的一个创建虚拟环境的工具，源码官网地址：<a href="https://github.com/pypa/virtualenv" target="_blank" rel="noopener">https://github.com/pypa/virtualenv</a></p><p>然后建立一个测试目录：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir testvirtual</span><br><span class="line">$ <span class="built_in">cd</span> testvirtual</span><br></pre></td></tr></table></figure><p>然后创建一个虚拟环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ virtualenv env1</span><br></pre></td></tr></table></figure><p>cd切换到该目录下，执行命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span> bin/activate</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;使用virtualenv创建虚拟python环境&quot;&gt;&lt;a href=&quot;#使用virtualenv创建虚拟python环境&quot; class=&quot;headerlink&quot; title=&quot;使用virtualenv创建虚拟python环境&quot;&gt;&lt;/a&gt;使用virtualenv创建
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用github page和hexo搭建博客</title>
+    <link href="http://yoursite.com/2018/01/07/%E4%BD%BF%E7%94%A8github%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/01/07/使用github和hexo搭建博客/</id>
+    <published>2018-01-07T06:53:18.000Z</published>
+    <updated>2018-01-07T09:39:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>需要安装的有:</p><ol><li>git</li><li>nodejs</li><li>hexo</li></ol><h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><p>首先需要在gitbub上注册自己的账户， 然后新建一个自己的仓库。仓库名必须是： username.github.io</p><h4 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h4><p>安装最新版本的nodejs</p><h4 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h4><p>安装hexo特别简单</p><ul><li>windows在cmder或者Git bash执行:</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure><ul><li>生成自己的博客    </li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> path/to/your/blod</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h3&gt;&lt;p&gt;需要安装的有:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;li&gt;hexo&lt;/li&gt;
+&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
